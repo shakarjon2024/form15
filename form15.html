@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <title>15. Katta Kontakt Formasi</title>
+    <style>body {font-family: Arial; margin: 50px;}</style>
+</head>
+<body>
+    <h2>15. To‘liq Kontakt Formasi</h2>
+    <form method="POST">
+        <label>Ismingiz:</label><br>
+        <input type="text" name="ism" required><br><br>
+        
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+        
+        <label>Telefon:</label><br>
+        <input type="tel" name="tel"><br><br>
+        
+        <label>Jinsingiz:</label><br>
+        <input type="radio" name="jins" value="erkak" id="e"><label for="e">Erkak</label>
+        <input type="radio" name="jins" value="ayol" id="a"><label for="a">Ayol</label><br><br>
+        
+        <label>Shahringiz:</label><br>
+        <select name="shahar">
+            <option value="Toshkent">Toshkent</option>
+            <option value="Samarqand">Samarqand</option>
+            <option value="Buxoro">Buxoro</option>
+        </select><br><br>
+        
+        <label>Qiziqishlaringiz:</label><br>
+        <input type="checkbox" name="qiziqish" value="Dasturlash"> Dasturlash<br>
+        <input type="checkbox" name="qiziqish" value="Sport"> Sport<br>
+        <input type="checkbox" name="qiziqish" value="Musiqa"> Musiqa<br><br>
+        
+        <label>Xabaringiz:</label><br>
+        <textarea name="xabar" rows="5" cols="50" placeholder="Xabaringiz..."></textarea><br><br>
+        
+        <button type="submit">Yuborish</button>
+    </form>
+    <br><a href="/">Bosh sahifaga</a>
+</body>
+</html>
